@@ -1,0 +1,48 @@
+
+print("clear".center(40,"-"))
+l1 = list(range(1, 11))
+print(f"l1 :{l1}")
+
+l1.clear()
+print(f"l1 :{l1}")
+
+print("-" * 40)
+l1 = [1, 2, 1, 1, 2, 3, 1, 1, 1, 2, 2, 2, 2, 2, 2, 3, 1, 1, 1, 1, 1, 1, 2, 3, 1, 2, 2, 2]
+
+print(f"l1 :{l1}")
+
+# count
+print(f"1 :{l1.count(1)}")
+print(f"2 :{l1.count(2)}")
+print(f"3 :{l1.count(3)}")
+print(f"4 :{l1.count(4)}")
+
+# index
+print("index of 3:", l1.index(3))
+print("index of 3:", l1.index(3, l1.index(3)+ 1))
+print("index of 3:", l1.index(3, l1.index(3, l1.index(3)+ 1) + 1))
+
+print("-" * 40)
+l1 = list(range(1, 6))
+print(f"l1 before :{l1}")
+l2 = l1                 # shallow copy - copies the data with address
+print(f"l2 before :{l2}")
+
+print("-" * 40)
+l2.extend([6, 7, 8, 9])
+print(f"l2 after :{l2}")
+print(f"l1 after :{l1}")
+
+print("-" * 40)
+l3 = [6, 7, 8, 9, 10]
+print(f"l3 before :{l3}")
+l4 = l3.copy()
+print(f"l4 before :{l4}")
+
+print("-" * 40)
+l4.append(11)
+l4.append(12)
+l4.append(13)
+
+print(f"l4 after :{l4}")
+print(f"l3 after :{l3}")

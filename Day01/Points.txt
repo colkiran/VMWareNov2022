@@ -1,0 +1,180 @@
+
+Language Features
+-----------------
+Python Data Types
+-----------------
+1. Number
+    a. integer
+    b. float
+    c. complexz
+2. String
+3. Boolean
+
+Loops and Control Structures
+------------------------------
+1. if condition
+2. Loops
+    a. for
+    b. while
+
+Data Structures
+----------------
+1. Lists
+2. Dictionary
+3. Tuples
+4. Sets
+
+Functions
+---------
+1. create functions
+2. call functions
+3. Pass Arguments
+    a. default and non default
+    b. named agr (*args, **kwargs)
+    c. variable length arguments
+4. function return values
+5. recursive calls
+6. doc stri`ng
+7. scope of a variable
+8. lambdas
+    a. list comprehension
+    b. dict comprehension
+9. closures
+10. HOF - Higher Order Function
+11. Decorator
+
+OOPS
+----
+1. class
+2. Objects
+3. constructor
+4. destructor
+5. self, __dict__
+6. class attributes
+7. class Method
+8. static Method
+9. Magic Method (operator overloading)
+10. property()
+11. Private property
+12. Inheritance
+13. Abstract Class
+14. Abstract Method
+15. Polymorphism
+16. Duck Types
+
+Packages and Modules
+File handling
+    a. Generic File Handling
+    b. XML files
+    c. Json files
+    d. Csv files
+    e. Database
+
+---------------------------------------------------------------------------------------
+two operators overloaded
+------------------------
++   -   addition and concatenation
+
+*   -   multiplication and print a string n times
+
+
+Control Structures
+------------------
+1. if condition
+
+Loops
+------
+1. for loop     ->  for each loop
+2. while
+
+2.x and 3.x
+------------
+
+2.x
+---
+input       => numbers
+raw_input   => text
+
+3.x
+---
+input   =>  text
+
+PRINT
+-----
+print(data, sep=, end="\n")
+
+--------------------------------------------------------------
+comments
+--------
+#  - to comment a single line
+
+doc strings - used to mention the syntax and the usage of a function
+
+"this is a string"
+
+"""
+
+"""
+
+
+'''
+
+'''
+
+write to code to generate the pattern
+
+1 2 3 4 5
+ 1 2 3 4
+  1 2 3
+   1 2
+    1
+   2 1
+  3 2 1
+ 4 3 2 1
+5 4 3 2 1
+
+Write a code to generate prime numbers between 150 to 50
+
+Strings
+-------
+strings are immutable
+
+magic number
+------------
+1! = 1
+2! = 2
+145 = 1! + 4! + 5!
+    = 1  + 24 + 120
+    = 145
+
+40585! = 4! + 0 + 5! + 8! + 5!
+
+Python Data Structures
+----------------------
+1. List (arrays)
+2. Dictionary
+3. Tuple
+4. Set
+
+List
+----
+similar to arrays
+
+Array ?
+1. collection of homogenous data
+2. memory allocation is contigious
+
+Lists
+-----
+1. collection of hetrogenous data
+2. memory allocation is not contigious
+3. ordered collection
+4. it is subscriptable
+5. it is mutable
+6. it is static
+
+
+functions to manipulate a list
+------------------------------
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
