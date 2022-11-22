@@ -1,0 +1,45 @@
+Dictionaries
+-------------
+1. dictionaries are also called as associative arrays
+2. keys of a dictionary is unique
+3. unordered collection
+4. they are stored in pairs
+    {k1: v1, k2: v2, k3: v3....}
+
+Functions to manipulate a dictionary
+------------------------------------
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+Tuple
+-----
+is an immutable list
+
+sets
+----
+1. sets are a collection of unique values
+2. sets are unordered collection
+3. sets are not subscriptable
+
+Functions
+---------
+
+python supports recursive calls
+--------------------------------
+using recursive calls
+    a. find the factorial of a number
+    b. find fibanocci series
+
+__main__    = double underscore main
+              dunder main
+
+lambdas
+-------
+1. anonymous functions
+2. with a single expression
+
+return_of_exp = lambda var1, var2, var3...:expression
+
+
+
+
+
