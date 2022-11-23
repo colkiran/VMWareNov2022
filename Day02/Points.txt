@@ -39,6 +39,91 @@ lambdas
 
 return_of_exp = lambda var1, var2, var3...:expression
 
+Comprehensions
+--------------
+iteration on collection (list, dictionary) using lambda syntax
+
+Scope of a variable
+--------------------
+1. global
+2. local
+3. non local
+
+Write a decorator which will return a positive result always
+
+def diff(x, y)
+    return(x - y)
+
+-------------------------------------------------
+
+
+def makepositive(fnc):
+  def swap(x, y):
+    if x > y:
+      print(fnc(x, y))
+    else:
+      prin(fnc(y, x))
+  return swap
+
+@makepositive
+def diff(x, y):
+  return x-y
+
+print(diff(2,1))
+
+OOPS
+----
+
+Object Oriented Programming
+----------------------------
+1. inheritance      -
+            Banking Project
+               90's -> withdraw
+               ----------------
+               1. self cheque
+               2. cheque from client
+               3. DD
+
+               mid 2000
+               --------
+               debit card(withdraw)
+
+
+2. abstraction
+3. polymorphism -
+4. encapsulation
+
+Arithmatic Operators
+--------------------
++, -, *, //, /
+
+
+class Point:
+    def __init__(self,x):
+        self.x = x
+
+    def __add__(self,other):
+        x = self.x + other.x
+        return Point(x)
+
+    def __repr__(self):
+        return "Point({})".format(self.x)
+
+    def __str__(self):
+        return str(self.x)
+
+
+p1 = Point(1)
+p2 = Point(2)
+p3 = Point(4)
+
+print("Points:", repr(p1), repr(p2), repr(p3))
+print("adding", p1 + p2)
+print("adding", p1 + p2 + p3)
+
+
+
+
 
 
 
